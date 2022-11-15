@@ -21,7 +21,7 @@ public class SampleTestClass {
 
   @Test
   void sampleTest() {
-
+	  driver.get("https://www.shipbob.com/");
   }
 
   @AfterEach
